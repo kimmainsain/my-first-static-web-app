@@ -1,8 +1,10 @@
-import React from 'react';
+import React from "react";
 
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+  const value = "value value";
+  const value2 = "value2 value2";
+
+  return <div>ci 확인 커밋 {value2} {value}</div>;
 }
 
 export default App;
