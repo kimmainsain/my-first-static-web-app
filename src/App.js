@@ -17,16 +17,16 @@ function App() {
     setCount(count - 1);
   };
 
-  const getData = async () => {
-    const response = await axios.get(``);
-    const data = await response.json();
-    setData(data);
-    console.log(data);
-  };
+  // const getData = async () => {
+  //   const response = await axios.get(``);
+  //   const data = await response.json();
+  //   setData(data);
+  //   console.log(data);
+  // };
 
-  useEffect(() => {
-    // getData();
-  }, []);
+  // useEffect(() => {
+  //   getData();
+  // }, []);
 
   return (
     <div>
